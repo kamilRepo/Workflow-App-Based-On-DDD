@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="183" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.ApplicationLayerExceptionAttribute">
+    <Instance Declaration="#2=M:[Workflow.HR]Workflow.HR.Application.Services.DeductionsSalaryService::AddDeductionsSalary(Workflow.HR.Interface.Presentation.FindersDto.SalaryDeductionsDto)" Id="ccb47997c7cc048a">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnException" Ordinal="0" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#4=M:[Workflow.HR]Workflow.HR.Application.Services.DeductionsSalaryService::UpdateDeductionsSalary(Workflow.HR.Interface.Presentation.FindersDto.SalaryDeductionsDto)" Id="ccb47997ecf7298b">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="2" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#5=M:[Workflow.HR]Workflow.HR.Application.Services.DeductionsSalaryService::DeleteDeductionsSalary(Workflow.HR.Interface.Presentation.FindersDto.SalaryDeductionsDto)" Id="ccb47997773930df">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#6=M:[Workflow.HR]Workflow.HR.Application.Services.EditDataPortalService::EditDataPortal(Workflow.HR.Interface.Presentation.ServicesDto.EditDataPortalResultDto)" Id="ccb479975d1eab91">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="6" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7=M:[Workflow.HR]Workflow.HR.Application.Services.EditDataPortalService::EditAllocationStructure(Workflow.HR.Interface.Presentation.ServicesDto.EditAllocationStructureResultDto)" Id="ccb4799734d9568d">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="8" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#8=M:[Workflow.HR]Workflow.HR.Application.Services.StructureAndLocationService::DeleteCoefficients(Workflow.HR.Interface.Presentation.FindersDto.StructureAndLocationDto)" Id="ccb4799762aa2f25">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="10" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#9=M:[Workflow.HR]Workflow.HR.Application.Services.StructureAndLocationService::SaveCoefficients(Workflow.HR.Interface.Presentation.FindersDto.StructureAndLocationDto)" Id="ccb47997cb227791">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="12" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#10=M:[Workflow.HR]Workflow.HR.Infrastructure.Finders.SalaryDeductionsFinder::FindSalaryDeductions(System.Int32, System.Int32)" Id="ccb47997eec5b6c9">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="14" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#11=M:[Workflow.HR]Workflow.HR.Infrastructure.Finders.StructureAndLocationFinder::FindStructureEmployee(System.Int32)" Id="ccb4799758740bba">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="15" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#12=T:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.RunInTransactionAspectAttribute">
+    <Instance Declaration="#2" Id="ccb47997c1d7fafd">
+      <Target>
+        <JoinPoint Advising="#12" Description="#13=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#4" Id="ccb4799794a2b424">
+      <Target>
+        <JoinPoint Advising="#12" Description="#13" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#5" Id="ccb479975eea7a51">
+      <Target>
+        <JoinPoint Advising="#12" Description="#13" Ordinal="5" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#6" Id="ccb47997d57a240f">
+      <Target>
+        <JoinPoint Advising="#12" Description="#13" Ordinal="7" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7" Id="ccb4799740344cfa">
+      <Target>
+        <JoinPoint Advising="#12" Description="#13" Ordinal="9" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#8" Id="ccb479972e2f4c5c">
+      <Target>
+        <JoinPoint Advising="#12" Description="#13" Ordinal="11" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#9" Id="ccb47997878fb4c8">
+      <Target>
+        <JoinPoint Advising="#12" Description="#13" Ordinal="13" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#14=M:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.ApplicationLayerExceptionAttribute::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#15=2" Description="#16=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#17=M:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.RunInTransactionAspectAttribute::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#15" Description="#16" />
+  <Annotation Target="#18=M:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.RunInTransactionAspectAttribute::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#15" Description="#16" />
+  <Annotation Target="#19=M:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.RunInTransactionAspectAttribute::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#15" Description="#16" />
+  <Annotation Target="#20=M:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.RunInTransactionAspectAttribute::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#15" Description="#16" />
+</Symbols>

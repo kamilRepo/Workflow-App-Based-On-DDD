@@ -1,0 +1,230 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Presentation", "0. Presentation", "{8C70AF9D-36EA-40EF-9BEC-A434F1E121A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Base", "1. Base", "{E57E71E3-D5AE-4859-A07A-555142B86488}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Data", "2. Data", "{61DC2EF6-FA24-4070-A7B6-C85BACFA5581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Permissions", "3. Permissions", "{27762E40-5B37-4624-9211-7862C6E23B11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Dashboard", "4. Dashboard", "{8C61D20F-CAB1-4E55-B56E-C440DACF4128}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Human resources", "5. Human resources", "{7EF2AEE0-EA52-4D33-9F96-93624FA5DAF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Web.Mvc.App", "0. Presentation\Workflow.WebMvcApp\Workflow.Web.Mvc.App.csproj", "{505B053F-2CAF-401A-B276-029E9FA411A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Web.Static", "0. Presentation\Workflow.WebStatic\Workflow.Web.Static.csproj", "{00512AD2-EC06-433A-AC2F-E3B82FAB1DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Base", "1. Base\Workflow.Base\Workflow.Base.csproj", "{94CC6BCC-6CEA-423C-AF47-18CF81142C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Base.Infrastructure", "1. Base\Workflow.Base.Infrastructure\Workflow.Base.Infrastructure.csproj", "{D5E31389-EA23-48D9-9536-AA3F162D6128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Basic.Domain", "1. Base\Workflow.Basic.Domain\Workflow.Basic.Domain.csproj", "{6DFC3271-E12A-4336-8E02-B43362E1686B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Basic.Presentation", "1. Base\Workflow.Basic.Presentation\Workflow.Basic.Presentation.csproj", "{3B42CB7A-9596-41AB-8421-6317228B96AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Permissions.Interface", "3. Permissions\Workflow.Permissions.Interface\Workflow.Permissions.Interface.csproj", "{88ED1D58-9BC3-4819-B37F-2C413CD93103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Permissions", "3. Permissions\Workflow.Permissions\Workflow.Permissions.csproj", "{9C097F0B-A522-49CF-87B2-D4421B09FF7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Dashboard.Interface", "4. Dashboard\Workflow.Dashboard.Interface\Workflow.Dashboard.Interface.csproj", "{5493CBC0-5ECC-4EB2-BD9A-4F7C2C39404C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Dashboard", "4. Dashboard\Workflow.Dashboard\Workflow.Dashboard.csproj", "{70DBBE8D-4253-460A-AB7A-2064177F470D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.HR.Interface", "5. Human resources\Workflow.HR.Interface\Workflow.HR.Interface.csproj", "{9BCB8C59-B15C-4708-9C41-A496D96942A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.HR", "5. Human resources\Workflow.HR\Workflow.HR.csproj", "{B9AC5EFE-8AC7-448F-A9DB-EB7299295E41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1753FA5C-553A-4701-BD22-0B06BEBB5668}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Web.Forms.App", "0. Presentation\Workflow.Web.Forms.App\Workflow.Web.Forms.App.csproj", "{C87CCD68-1679-4AEF-BAF6-C773840452EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Web.Api", "0. Presentation\Workflow.WebApi\Workflow.Web.Api.csproj", "{4CACBF4F-2DCB-4645-B2F3-B9048995BE0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Dashboard.UnitTests", "4. Dashboard\Workflow.Dashboard.UnitTests\Workflow.Dashboard.UnitTests.csproj", "{1B4CA410-9692-472E-A6D4-35FA8EB50CC0}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Workflow.Database", "2. Data\Workflow.Database\Workflow.Database.sqlproj", "{C42E8D92-8B51-42AD-BC1A-E71A3D9CFE97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workflow.Base.Interface", "1. Base\Workflow.Base.Interface\Workflow.Base.Interface.csproj", "{F60A8386-9CFE-43BC-8C26-540366909156}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 18
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://kamilp:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 0.\u0020Presentation\\Workflow.WebMvcApp\\Workflow.Web.Mvc.App.csproj
+		SccProjectTopLevelParentUniqueName1 = Workflow.sln
+		SccProjectName1 = 0.\u0020Presentation/Workflow.WebMvcApp
+		SccLocalPath1 = 0.\u0020Presentation\\Workflow.WebMvcApp
+		SccProjectUniqueName2 = 0.\u0020Presentation\\Workflow.WebStatic\\Workflow.Web.Static.csproj
+		SccProjectTopLevelParentUniqueName2 = Workflow.sln
+		SccProjectName2 = 0.\u0020Presentation/Workflow.WebStatic
+		SccLocalPath2 = 0.\u0020Presentation\\Workflow.WebStatic
+		SccProjectUniqueName3 = 1.\u0020Base\\Workflow.Base.Infrastructure\\Workflow.Base.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName3 = Workflow.sln
+		SccProjectName3 = 1.\u0020Base/Workflow.Base.Infrastructure
+		SccLocalPath3 = 1.\u0020Base\\Workflow.Base.Infrastructure
+		SccProjectUniqueName4 = 1.\u0020Base\\Workflow.Base\\Workflow.Base.csproj
+		SccProjectTopLevelParentUniqueName4 = Workflow.sln
+		SccProjectName4 = 1.\u0020Base/Workflow.Base
+		SccLocalPath4 = 1.\u0020Base\\Workflow.Base
+		SccProjectUniqueName5 = 1.\u0020Base\\Workflow.Basic.Domain\\Workflow.Basic.Domain.csproj
+		SccProjectTopLevelParentUniqueName5 = Workflow.sln
+		SccProjectName5 = 1.\u0020Base/Workflow.Basic.Domain
+		SccLocalPath5 = 1.\u0020Base\\Workflow.Basic.Domain
+		SccProjectUniqueName6 = 1.\u0020Base\\Workflow.Basic.Presentation\\Workflow.Basic.Presentation.csproj
+		SccProjectTopLevelParentUniqueName6 = Workflow.sln
+		SccProjectName6 = 1.\u0020Base/Workflow.Basic.Presentation
+		SccLocalPath6 = 1.\u0020Base\\Workflow.Basic.Presentation
+		SccProjectUniqueName7 = 3.\u0020Permissions\\Workflow.Permissions.Interface\\Workflow.Permissions.Interface.csproj
+		SccProjectTopLevelParentUniqueName7 = Workflow.sln
+		SccProjectName7 = 3.\u0020Permissions/Workflow.Permissions.Interface
+		SccLocalPath7 = 3.\u0020Permissions\\Workflow.Permissions.Interface
+		SccProjectUniqueName8 = 3.\u0020Permissions\\Workflow.Permissions\\Workflow.Permissions.csproj
+		SccProjectTopLevelParentUniqueName8 = Workflow.sln
+		SccProjectName8 = 3.\u0020Permissions/Workflow.Permissions
+		SccLocalPath8 = 3.\u0020Permissions\\Workflow.Permissions
+		SccProjectUniqueName9 = 4.\u0020Dashboard\\Workflow.Dashboard.Interface\\Workflow.Dashboard.Interface.csproj
+		SccProjectTopLevelParentUniqueName9 = Workflow.sln
+		SccProjectName9 = 4.\u0020Dashboard/Workflow.Dashboard.Interface
+		SccLocalPath9 = 4.\u0020Dashboard\\Workflow.Dashboard.Interface
+		SccProjectUniqueName10 = 4.\u0020Dashboard\\Workflow.Dashboard\\Workflow.Dashboard.csproj
+		SccProjectTopLevelParentUniqueName10 = Workflow.sln
+		SccProjectName10 = 4.\u0020Dashboard/Workflow.Dashboard
+		SccLocalPath10 = 4.\u0020Dashboard\\Workflow.Dashboard
+		SccProjectUniqueName11 = 5.\u0020Human\u0020resources\\Workflow.HR.Interface\\Workflow.HR.Interface.csproj
+		SccProjectTopLevelParentUniqueName11 = Workflow.sln
+		SccProjectName11 = 5.\u0020Human\u0020resources/Workflow.HR.Interface
+		SccLocalPath11 = 5.\u0020Human\u0020resources\\Workflow.HR.Interface
+		SccProjectUniqueName12 = 5.\u0020Human\u0020resources\\Workflow.HR\\Workflow.HR.csproj
+		SccProjectTopLevelParentUniqueName12 = Workflow.sln
+		SccProjectName12 = 5.\u0020Human\u0020resources/Workflow.HR
+		SccLocalPath12 = 5.\u0020Human\u0020resources\\Workflow.HR
+		SccProjectUniqueName13 = 0.\u0020Presentation\\Workflow.Web.Forms.App\\Workflow.Web.Forms.App.csproj
+		SccProjectTopLevelParentUniqueName13 = Workflow.sln
+		SccProjectName13 = 0.\u0020Presentation/Workflow.Web.Forms.App
+		SccLocalPath13 = 0.\u0020Presentation\\Workflow.Web.Forms.App
+		SccProjectUniqueName14 = 0.\u0020Presentation\\Workflow.WebApi\\Workflow.Web.Api.csproj
+		SccProjectTopLevelParentUniqueName14 = Workflow.sln
+		SccProjectName14 = 0.\u0020Presentation/Workflow.WebApi
+		SccLocalPath14 = 0.\u0020Presentation\\Workflow.WebApi
+		SccProjectUniqueName15 = 4.\u0020Dashboard\\Workflow.Dashboard.UnitTests\\Workflow.Dashboard.UnitTests.csproj
+		SccProjectTopLevelParentUniqueName15 = Workflow.sln
+		SccProjectName15 = 4.\u0020Dashboard/Workflow.Dashboard.UnitTests
+		SccLocalPath15 = 4.\u0020Dashboard\\Workflow.Dashboard.UnitTests
+		SccProjectUniqueName16 = 2.\u0020Data\\Workflow.Database\\Workflow.Database.sqlproj
+		SccProjectTopLevelParentUniqueName16 = Workflow.sln
+		SccProjectName16 = 2.\u0020Data/Workflow.Database
+		SccLocalPath16 = 2.\u0020Data\\Workflow.Database
+		SccProjectUniqueName17 = 1.\u0020Base\\Workflow.Base.Interface\\Workflow.Base.Interface.csproj
+		SccProjectTopLevelParentUniqueName17 = Workflow.sln
+		SccProjectName17 = 1.\u0020Base/Workflow.Base.Interface
+		SccLocalPath17 = 1.\u0020Base\\Workflow.Base.Interface
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{505B053F-2CAF-401A-B276-029E9FA411A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505B053F-2CAF-401A-B276-029E9FA411A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505B053F-2CAF-401A-B276-029E9FA411A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505B053F-2CAF-401A-B276-029E9FA411A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00512AD2-EC06-433A-AC2F-E3B82FAB1DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00512AD2-EC06-433A-AC2F-E3B82FAB1DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00512AD2-EC06-433A-AC2F-E3B82FAB1DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00512AD2-EC06-433A-AC2F-E3B82FAB1DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94CC6BCC-6CEA-423C-AF47-18CF81142C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CC6BCC-6CEA-423C-AF47-18CF81142C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CC6BCC-6CEA-423C-AF47-18CF81142C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CC6BCC-6CEA-423C-AF47-18CF81142C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E31389-EA23-48D9-9536-AA3F162D6128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E31389-EA23-48D9-9536-AA3F162D6128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E31389-EA23-48D9-9536-AA3F162D6128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E31389-EA23-48D9-9536-AA3F162D6128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFC3271-E12A-4336-8E02-B43362E1686B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFC3271-E12A-4336-8E02-B43362E1686B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFC3271-E12A-4336-8E02-B43362E1686B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFC3271-E12A-4336-8E02-B43362E1686B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B42CB7A-9596-41AB-8421-6317228B96AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B42CB7A-9596-41AB-8421-6317228B96AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B42CB7A-9596-41AB-8421-6317228B96AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B42CB7A-9596-41AB-8421-6317228B96AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88ED1D58-9BC3-4819-B37F-2C413CD93103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88ED1D58-9BC3-4819-B37F-2C413CD93103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88ED1D58-9BC3-4819-B37F-2C413CD93103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88ED1D58-9BC3-4819-B37F-2C413CD93103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C097F0B-A522-49CF-87B2-D4421B09FF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C097F0B-A522-49CF-87B2-D4421B09FF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C097F0B-A522-49CF-87B2-D4421B09FF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C097F0B-A522-49CF-87B2-D4421B09FF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5493CBC0-5ECC-4EB2-BD9A-4F7C2C39404C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5493CBC0-5ECC-4EB2-BD9A-4F7C2C39404C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5493CBC0-5ECC-4EB2-BD9A-4F7C2C39404C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5493CBC0-5ECC-4EB2-BD9A-4F7C2C39404C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DBBE8D-4253-460A-AB7A-2064177F470D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DBBE8D-4253-460A-AB7A-2064177F470D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DBBE8D-4253-460A-AB7A-2064177F470D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DBBE8D-4253-460A-AB7A-2064177F470D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCB8C59-B15C-4708-9C41-A496D96942A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCB8C59-B15C-4708-9C41-A496D96942A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCB8C59-B15C-4708-9C41-A496D96942A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCB8C59-B15C-4708-9C41-A496D96942A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AC5EFE-8AC7-448F-A9DB-EB7299295E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AC5EFE-8AC7-448F-A9DB-EB7299295E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AC5EFE-8AC7-448F-A9DB-EB7299295E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AC5EFE-8AC7-448F-A9DB-EB7299295E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87CCD68-1679-4AEF-BAF6-C773840452EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87CCD68-1679-4AEF-BAF6-C773840452EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87CCD68-1679-4AEF-BAF6-C773840452EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87CCD68-1679-4AEF-BAF6-C773840452EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CACBF4F-2DCB-4645-B2F3-B9048995BE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CACBF4F-2DCB-4645-B2F3-B9048995BE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CACBF4F-2DCB-4645-B2F3-B9048995BE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CACBF4F-2DCB-4645-B2F3-B9048995BE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4CA410-9692-472E-A6D4-35FA8EB50CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4CA410-9692-472E-A6D4-35FA8EB50CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4CA410-9692-472E-A6D4-35FA8EB50CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4CA410-9692-472E-A6D4-35FA8EB50CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42E8D92-8B51-42AD-BC1A-E71A3D9CFE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42E8D92-8B51-42AD-BC1A-E71A3D9CFE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42E8D92-8B51-42AD-BC1A-E71A3D9CFE97}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C42E8D92-8B51-42AD-BC1A-E71A3D9CFE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42E8D92-8B51-42AD-BC1A-E71A3D9CFE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42E8D92-8B51-42AD-BC1A-E71A3D9CFE97}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F60A8386-9CFE-43BC-8C26-540366909156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60A8386-9CFE-43BC-8C26-540366909156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60A8386-9CFE-43BC-8C26-540366909156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60A8386-9CFE-43BC-8C26-540366909156}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{505B053F-2CAF-401A-B276-029E9FA411A4} = {8C70AF9D-36EA-40EF-9BEC-A434F1E121A2}
+		{00512AD2-EC06-433A-AC2F-E3B82FAB1DD8} = {8C70AF9D-36EA-40EF-9BEC-A434F1E121A2}
+		{C87CCD68-1679-4AEF-BAF6-C773840452EF} = {8C70AF9D-36EA-40EF-9BEC-A434F1E121A2}
+		{4CACBF4F-2DCB-4645-B2F3-B9048995BE0B} = {8C70AF9D-36EA-40EF-9BEC-A434F1E121A2}
+		{94CC6BCC-6CEA-423C-AF47-18CF81142C1B} = {E57E71E3-D5AE-4859-A07A-555142B86488}
+		{D5E31389-EA23-48D9-9536-AA3F162D6128} = {E57E71E3-D5AE-4859-A07A-555142B86488}
+		{6DFC3271-E12A-4336-8E02-B43362E1686B} = {E57E71E3-D5AE-4859-A07A-555142B86488}
+		{3B42CB7A-9596-41AB-8421-6317228B96AE} = {E57E71E3-D5AE-4859-A07A-555142B86488}
+		{F60A8386-9CFE-43BC-8C26-540366909156} = {E57E71E3-D5AE-4859-A07A-555142B86488}
+		{C42E8D92-8B51-42AD-BC1A-E71A3D9CFE97} = {61DC2EF6-FA24-4070-A7B6-C85BACFA5581}
+		{88ED1D58-9BC3-4819-B37F-2C413CD93103} = {27762E40-5B37-4624-9211-7862C6E23B11}
+		{9C097F0B-A522-49CF-87B2-D4421B09FF7A} = {27762E40-5B37-4624-9211-7862C6E23B11}
+		{5493CBC0-5ECC-4EB2-BD9A-4F7C2C39404C} = {8C61D20F-CAB1-4E55-B56E-C440DACF4128}
+		{70DBBE8D-4253-460A-AB7A-2064177F470D} = {8C61D20F-CAB1-4E55-B56E-C440DACF4128}
+		{1B4CA410-9692-472E-A6D4-35FA8EB50CC0} = {8C61D20F-CAB1-4E55-B56E-C440DACF4128}
+		{9BCB8C59-B15C-4708-9C41-A496D96942A2} = {7EF2AEE0-EA52-4D33-9F96-93624FA5DAF8}
+		{B9AC5EFE-8AC7-448F-A9DB-EB7299295E41} = {7EF2AEE0-EA52-4D33-9F96-93624FA5DAF8}
+	EndGlobalSection
+EndGlobal

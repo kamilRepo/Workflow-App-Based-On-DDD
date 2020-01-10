@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CardIndexMainLayout.master.cs" Inherits="Workflow.Web.Forms.App.Views.CardIndex.Shared.CardIndexMainLayout" %>
+
+<asp:Content ID="Steelsheet" ContentPlaceHolderID="SteelsheetContent" runat="server">
+    <asp:ContentPlaceHolder ID="SteelsheetContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Scripts" ContentPlaceHolderID="ScriptsContent" runat="server">
+    <asp:ContentPlaceHolder ID="ScriptsContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Main" ContentPlaceHolderID="MainContent" runat="server">
+    <br />
+    <div class="container-fluid">
+        <div class="row">
+            <div class="visible-xs visible-sm show-left-panel" data-toggle="tooltip" data-placement="bottom" title="Pokaż panel użytkownika">
+                <span class="glyphicon glyphicon-user"></span>
+            </div>
+            <div class="hidden-xs hidden-sm col-md-2 col-sm-2 profile">
+                <asp:Panel ID="pnl_MainEmployee" runat="server" Visible="false">
+                    <nav class="navbar navbar-default">
+                        <br />
+                        <ul class="nav navbar-stacked left-nav">
+                            <li>
+                                <asp:Image ID="btn_Image" runat="server" alt="<%$ Resources: Common, Lack %>" Height="120" Width="120" class="thumbnail" />
+                            </li>
+                            <li>
+                                <br />
+                                <asp:LinkButton ID="lnk_PersonalInformation1" runat="server" Text="<%$ Resources: Common, PersonalInformation %>" OnClick="lnk_PersonalInformation_Click">
+                                </asp:LinkButton>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                            <li>
+                                <asp:LinkButton ID="lnk_Finances1" runat="server" Text="<%$ Resources: CardIndex, FinanceAndContracts %>" OnClick="lnk_Finances_Click"></asp:LinkButton>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                            <li>
+                                <asp:LinkButton ID="lnk_Employees" runat="server" Text="<%$ Resources: Common, Employees %>" OnClick="lnk_Employees_Click"></asp:LinkButton>
+                            </li>
+                        </ul>
+                        <br />
+                    </nav>
+                </asp:Panel>
+                <asp:Panel ID="pnl_Employee" runat="server" Visible="false">
+                    <nav class="navbar navbar-default">
+                        <br />
+                        <ul class="nav navbar-stacked left-nav">
+                            <li>
+                                <asp:Image ID="btn_ImageEmployee" runat="server" alt="<%$ Resources: Common, Lack %>" CssClass="thumbnail" Height="100" Width="120" />
+                            </li>
+                            <li>
+                                <br />
+                                <asp:LinkButton ID="lnk_EmployeesPersonalInformation1" runat="server" Text="<%$ Resources: Common, PersonalInformation %>" OnClick="lnk_EmployeesPersonalInformation_Click">
+                                </asp:LinkButton>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                            <li>
+                                <asp:LinkButton ID="lnk_EmployeesFinances1" runat="server" Text="<%$ Resources: CardIndex, FinanceAndContracts %>" OnClick="lnk_EmployeesFinances_Click"></asp:LinkButton>
+                            </li>
+                            <li role="presentation" class="divider"></li>
+                            <li>
+                                <asp:LinkButton ID="lnk_MyEmployees" runat="server" Text="<%$ Resources: Common, Employees %>" OnClick="lnk_MyEmployees_Click"></asp:LinkButton>
+                            </li>
+                        </ul>
+                        <br />
+                    </nav>
+                </asp:Panel>
+            </div>
+            <div class="col-sm-12 col-md-10">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+    </div>
+
+</asp:Content>

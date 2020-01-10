@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="3322" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[Workflow.Basic.Presentation]Workflow.Basic.Presentation.Attributes.PresentationLayerExceptionAttribute">
+    <Instance Declaration="#2=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsCompanyCar::GetData()" Id="f657449cec218ec2">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnException" Ordinal="0" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#4=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsCompanyCar::gv_Deductions_RowCommand(System.Object, System.Web.UI.WebControls.GridViewCommandEventArgs)" Id="f657449c54b1518a">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#5=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsCompanyCar::AddRow_Click(System.Object, System.EventArgs)" Id="f657449c79bce3ec">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="2" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#6=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsFromSalary::GetData()" Id="f657449c5a9e0865">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsFromSalary::gv_Deductions_RowCommand(System.Object, System.Web.UI.WebControls.GridViewCommandEventArgs)" Id="f657449c775e649a">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#8=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsFromSalary::AddRow_Click(System.Object, System.EventArgs)" Id="f657449c6bf24600">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="5" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#9=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsLoansOther::GetData()" Id="f657449c1dd1df8a">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="6" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#10=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsLoansOther::gv_Deductions_RowCommand(System.Object, System.Web.UI.WebControls.GridViewCommandEventArgs)" Id="f657449c23e32972">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="7" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#11=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsLoansOther::AddRow_Click(System.Object, System.EventArgs)" Id="f657449c8236ee5a">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="8" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#12=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsMedicalCare::GetData()" Id="f657449c6a93ddef">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="9" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#13=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsMedicalCare::gv_Deductions_RowCommand(System.Object, System.Web.UI.WebControls.GridViewCommandEventArgs)" Id="f657449c0faf1ae7">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="10" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#14=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsMedicalCare::AddRow_Click(System.Object, System.EventArgs)" Id="f657449cb1940c42">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="11" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#15=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsMultisport::GetData()" Id="f657449c48251968">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="12" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#16=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsMultisport::gv_Deductions_RowCommand(System.Object, System.Web.UI.WebControls.GridViewCommandEventArgs)" Id="f657449cacc33bbd">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="13" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#17=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsMultisport::AddRow_Click(System.Object, System.EventArgs)" Id="f657449c05cc3b47">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="14" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#18=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsPZUInsurance::GetData()" Id="f657449cb92c02a4">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="15" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#19=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsPZUInsurance::gv_Deductions_RowCommand(System.Object, System.Web.UI.WebControls.GridViewCommandEventArgs)" Id="f657449caf2ac0b5">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="16" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#20=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsPZUInsurance::AddRow_Click(System.Object, System.EventArgs)" Id="f657449cae2a2c7b">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="17" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#21=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsZFSS::GetData()" Id="f657449cd4aea8ab">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="18" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#22=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsZFSS::gv_Deductions_RowCommand(System.Object, System.Web.UI.WebControls.GridViewCommandEventArgs)" Id="f657449c0c732196">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="19" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#23=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.DeductionsZFSS::AddRow_Click(System.Object, System.EventArgs)" Id="f657449cd39d17ee">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="20" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#24=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.MyEmployee::GetData()" Id="f657449c8b3ac7dd">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="21" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#25=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.MyEmployee::gv_Deductions_RowCommand(System.Object, System.Web.UI.WebControls.GridViewCommandEventArgs)" Id="f657449c1a377d51">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="22" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#26=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.MyEmployee::AddRow_Click(System.Object, System.EventArgs)" Id="f657449c8dfd2d4f">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="23" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#27=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.MyPortal::GetData()" Id="f657449c60b16f3d">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="24" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#28=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.MyPortal::btn_Restore_Click(System.Object, System.EventArgs)" Id="f657449cae47ffe1">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="25" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#29=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.MyPortal::btn_Save_Click(System.Object, System.EventArgs)" Id="f657449cfe367c2e">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="26" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#30=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.MyPortalFinances::GetData()" Id="f657449c6b5a7bfe">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="27" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#31=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.SearchEmployees::GetData()" Id="f657449c2a14cac3">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="28" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#32=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.SearchEmployees::btn_SearchFor_Click(System.Object, System.EventArgs)" Id="f657449ca2372621">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="29" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#33=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.SearchEmployees::gv_EmployeeList_PageIndexChanging(System.Object, System.Web.UI.WebControls.GridViewPageEventArgs)" Id="f657449c497b3b44">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="30" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#34=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.Shared.ApplicationHRMainLayout::GetData()" Id="f657449ce014dbbd">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="31" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#35=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.Shared.DeductionsFromSalaryMainLayout::GetData()" Id="f657449cddc1f3d9">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="32" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#36=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.StructureAndLocation::GetData()" Id="f657449c46a31f60">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="33" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#37=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.StructureAndLocation::btn_Save_Click(System.Object, System.EventArgs)" Id="f657449c41b396ea">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="34" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#38=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.StructureAndLocation::btn_Restore_Click(System.Object, System.EventArgs)" Id="f657449ccf64ca84">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="35" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#39=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.StructureAndLocation::btn_AddRow_Click(System.Object, System.EventArgs)" Id="f657449c230e7708">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="36" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#40=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.StructureAndLocation::AddRow_Click(System.Object, System.EventArgs)" Id="f657449c7fb7dad7">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="37" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#41=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.ApplicationsHR.StructureAndLocation::gv_Coefficients_RowCommand(System.Object, System.Web.UI.WebControls.GridViewCommandEventArgs)" Id="f657449cf08481c9">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="38" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#42=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Employee::GetData()" Id="f657449cd142c520">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="39" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#43=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Employee::gv_ReportsTo_PageIndexChanging(System.Object, System.Web.UI.WebControls.GridViewPageEventArgs)" Id="f657449c0eb4e874">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="40" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#44=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Employee::gv_DirectReports_PageIndexChanging(System.Object, System.Web.UI.WebControls.GridViewPageEventArgs)" Id="f657449cfc2396c0">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="41" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#45=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.CardIndex.MyEmployee::GetData()" Id="f657449ca7ac2c27">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="42" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#46=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.CardIndex.MyEmployee::btn_SearchFor_Click(System.Object, System.EventArgs)" Id="f657449c70970fbd">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="43" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#47=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.CardIndex.MyEmployee::gv_EmployeeList_PageIndexChanging(System.Object, System.Web.UI.WebControls.GridViewPageEventArgs)" Id="f657449ce87579e0">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="44" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#48=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.CardIndex.MyPortalFinances::GetData()" Id="f657449ca8dbb9cd">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="45" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#49=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.CardIndex.MyPortal::GetData()" Id="f657449c952b3a20">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="46" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#50=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.CardIndex.SearchEmployee::GetData()" Id="f657449cc31ca2ef">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="47" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#51=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.CardIndex.SearchEmployee::btn_SearchFor_Click(System.Object, System.EventArgs)" Id="f657449c0245e2a6">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="48" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#52=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.CardIndex.SearchEmployee::gv_EmployeeList_PageIndexChanging(System.Object, System.Web.UI.WebControls.GridViewPageEventArgs)" Id="f657449c2219c1da">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="49" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#53=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.CardIndex.Shared.CardIndexMainLayout::GetData()" Id="f657449c9a5c3b55">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="50" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#54=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.Shared.Partials.WUC_SearchEmployees::GetData()" Id="f657449c4abe7667">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="51" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#55=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.Shared.Partials.WUC_SearchEmployees::btn_SearchFor_Click(System.Object, System.EventArgs)" Id="f657449c266b6690">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="52" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#56=M:[Workflow.Web.Forms.App]Workflow.Web.Forms.App.Views.Shared.Partials.WUC_SearchEmployees::gv_EmployeeList_PageIndexChanging(System.Object, System.Web.UI.WebControls.GridViewPageEventArgs)" Id="f657449c9a6a0186">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3" Ordinal="53" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#57=M:[Workflow.Basic.Presentation]Workflow.Basic.Presentation.Attributes.PresentationLayerExceptionAttribute::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#58=2" Description="#59=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+</Symbols>

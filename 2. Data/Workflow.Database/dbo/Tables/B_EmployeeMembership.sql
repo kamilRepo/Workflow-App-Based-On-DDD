@@ -1,0 +1,26 @@
+﻿CREATE TABLE [dbo].[B_EmployeeMembership] (
+    [Id]                    INT            IDENTITY (1, 1) NOT NULL,
+    [FromDate]              DATETIME2 (7)  NULL,
+    [ToDate]                DATETIME       NULL,
+    [Position]              NVARCHAR (255) NULL,
+    [Room]                  NVARCHAR (255) NULL,
+    [Status]                INT            NULL,
+    [C_Date]                DATETIME       NULL,
+    [M_Date]                DATETIME       NULL,
+    [Employee_id]           INT            NULL,
+    [OrganizationalUnit_id] INT            NULL,
+    [OrganizationalCell_id] INT            NULL,
+    [Section_id]            INT            NULL,
+    [DirectSupervisor_id]   INT            NULL,
+    [C_User_id]             INT            NULL,
+    [M_User_id]             INT            NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK11AA4CCC58C6A50B] FOREIGN KEY ([Employee_id]) REFERENCES [dbo].[B_Employee] ([Id]),
+    CONSTRAINT [FK11AA4CCC5EB02953] FOREIGN KEY ([OrganizationalCell_id]) REFERENCES [dbo].[B_OrganizationalCell] ([Id]),
+    CONSTRAINT [FK11AA4CCCB8579BD2] FOREIGN KEY ([M_User_id]) REFERENCES [dbo].[B_User] ([Id]),
+    CONSTRAINT [FK11AA4CCCB857B964] FOREIGN KEY ([C_User_id]) REFERENCES [dbo].[B_User] ([Id]),
+    CONSTRAINT [FK11AA4CCCBBB43D21] FOREIGN KEY ([OrganizationalUnit_id]) REFERENCES [dbo].[B_OrganizationalUnit] ([Id]),
+    CONSTRAINT [FK11AA4CCCE0B0D21A] FOREIGN KEY ([Section_id]) REFERENCES [dbo].[B_Section] ([Id]),
+    CONSTRAINT [FK11AA4CCCE438C6B2] FOREIGN KEY ([DirectSupervisor_id]) REFERENCES [dbo].[B_Employee] ([Id])
+);
+

@@ -1,0 +1,7 @@
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\5. Human resources\Workflow.HR.Interface\bin\Debug\Workflow.HR.Interface.dll
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\5. Human resources\Workflow.HR.Interface\bin\Debug\Workflow.HR.Interface.pdb
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\5. Human resources\Workflow.HR.Interface\bin\Debug\Workflow.Base.Interface.dll
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\5. Human resources\Workflow.HR.Interface\bin\Debug\Workflow.Base.Interface.pdb
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\5. Human resources\Workflow.HR.Interface\obj\Debug\Workflow.HR.Interface.dll
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\5. Human resources\Workflow.HR.Interface\obj\Debug\Workflow.HR.Interface.pdb
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\5. Human resources\Workflow.HR.Interface\obj\Debug\Workflow.HR.Interface.csprojResolveAssemblyReference.cache

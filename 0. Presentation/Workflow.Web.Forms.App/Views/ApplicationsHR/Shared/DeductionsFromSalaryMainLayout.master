@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DeductionsFromSalaryMainLayout.master.cs" Inherits="Workflow.Web.Forms.App.Views.ApplicationsHR.Shared.DeductionsFromSalaryMainLayout" %>
+
+<asp:Content ID="Steelsheet" ContentPlaceHolderID="SteelsheetContent" runat="server">
+    <asp:ContentPlaceHolder ID="SteelsheetContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Scripts" ContentPlaceHolderID="ScriptsContent" runat="server">
+    <asp:ContentPlaceHolder ID="ScriptsContent" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Main" ContentPlaceHolderID="MainContent" runat="server">
+    <br />
+    <div class="container-fluid">
+        <div class="row">
+            
+            <div class="menu-contener">
+                <div class="btn-group" role="group" aria-label="...">
+                    <asp:Button ID="lnk_Hestia" runat="server" Text="<%$ Resources: HR, Hestia %>" class="btn btn-default" OnClick="lnk_Hestia_Click"></asp:Button>
+                    <asp:Button ID="lnk_MedicalCare" runat="server" Text="<%$ Resources: HR, MedicalCare %>" class="btn btn-default" OnClick="lnk_MedicalCare_Click"></asp:Button>
+                    <asp:Button ID="lnk_PZUInsurance" runat="server" Text="<%$ Resources: HR, PZUInsurance %>" class="btn btn-default" OnClick="lnk_PZUInsurance_Click"></asp:Button>
+                    <asp:Button ID="lnk_ZFSS" runat="server" Text="<%$ Resources: HR, ZFSS %>" class="btn btn-default" OnClick="lnk_ZFSS_Click"></asp:Button>
+                    <asp:Button ID="lnk_LoansOther" runat="server" Text="<%$ Resources: HR, LoansOther %>" class="btn btn-default" OnClick="lnk_LoansOther_Click"></asp:Button>
+                    <asp:Button ID="lnk_Multisport" runat="server" Text="<%$ Resources: HR, Multisport %>" class="btn btn-default" OnClick="lnk_Multisport_Click"></asp:Button>
+                    <asp:Button ID="lnk_CompanyCar" runat="server" Text="<%$ Resources: HR, CompanyCar %>" class="btn btn-default" OnClick="lnk_CompanyCar_Click"></asp:Button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <br />
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>

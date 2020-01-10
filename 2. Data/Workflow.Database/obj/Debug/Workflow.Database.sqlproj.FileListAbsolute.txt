@@ -1,0 +1,2 @@
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\2. Data\Workflow.Database\obj\Debug\Workflow.Database.dll
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\2. Data\Workflow.Database\obj\Debug\Workflow.Database.pdb

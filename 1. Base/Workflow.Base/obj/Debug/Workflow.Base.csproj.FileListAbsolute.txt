@@ -1,0 +1,9 @@
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\1. Base\Workflow.Base\bin\Debug\Workflow.Base.dll
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\1. Base\Workflow.Base\bin\Debug\Workflow.Base.pdb
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\1. Base\Workflow.Base\bin\Debug\log4net.dll
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\1. Base\Workflow.Base\bin\Debug\Workflow.Base.Interface.dll
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\1. Base\Workflow.Base\bin\Debug\Workflow.Base.Interface.pdb
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\1. Base\Workflow.Base\bin\Debug\log4net.xml
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\1. Base\Workflow.Base\obj\Debug\Workflow.Base.csprojResolveAssemblyReference.cache
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\1. Base\Workflow.Base\obj\Debug\Workflow.Base.dll
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\1. Base\Workflow.Base\obj\Debug\Workflow.Base.pdb

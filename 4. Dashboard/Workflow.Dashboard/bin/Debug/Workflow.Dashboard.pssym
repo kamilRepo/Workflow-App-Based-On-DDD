@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="232" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.RunInTransactionAspectAttribute">
+    <Instance Declaration="#2=M:[Workflow.Dashboard]Workflow.Dashboard.Application.Services.MyPortalService::CheckAccessPolicy(Workflow.Dashboard.Interface.Presentation.ServicesDto.AccessPolicyDto)" Id="bc3cf6b1a983de45">
+      <Target>
+        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#4=T:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.ApplicationLayerExceptionAttribute">
+    <Instance Declaration="#2" Id="bc3cf6b11178451f">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5=Wrapped by advice(s) OnException" Ordinal="0" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#6=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.DictionaryFinder::FindSection()" Id="bc3cf6b14217cfef">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="2" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.DictionaryFinder::FindOrganizationalUnit()" Id="bc3cf6b13179dc04">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#8=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.DictionaryFinder::FindOrganizationalCell()" Id="bc3cf6b117b8e205">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#9=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.DictionaryFinder::FindSilo()" Id="bc3cf6b18d5868bf">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="5" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#10=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.EmployeeContractFinder::FindEmployeeContract(System.Int32)" Id="bc3cf6b1e63606d8">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="6" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#11=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.EmployeeFinder::FindEmployee(System.Int32)" Id="bc3cf6b1f424a046">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="7" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#12=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.EmployeeFinder::FindEmployees(Workflow.Dashboard.Interface.Presentation.Criteria.EmployeeSearchCriteria)" Id="bc3cf6b1c13e8381">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="8" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#13=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.EmployeeFinder::FindEmployeeMembership(System.Int32)" Id="bc3cf6b151d781e4">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="9" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#14=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.EmployeeFinder::FindEmployeeAdress(System.Int32)" Id="bc3cf6b1a2f61c1a">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="10" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#15=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.EmployeeMembershipFinder::FindDirectSupervisorId(System.Int32)" Id="bc3cf6b1f5391ec0">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="11" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#16=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.EmployeeMembershipFinder::FindBranchOrganizationalCellId(System.Int32, System.Int32)" Id="bc3cf6b112bdfe77">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="12" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#17=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.EmployeeSalaryFinder::FindEmployeeSalary(System.Int32)" Id="bc3cf6b198c566b1">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="13" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#18=M:[Workflow.Dashboard]Workflow.Dashboard.Infrastructure.Finders.VacationsFinder::FindVacation(System.Int32, System.DateTime)" Id="bc3cf6b1bbb94c0f">
+      <Target>
+        <JoinPoint Advising="#4" Description="#5" Ordinal="14" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#19=M:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.RunInTransactionAspectAttribute::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#20=2" Description="#21=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#22=M:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.RunInTransactionAspectAttribute::OnSuccess(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#20" Description="#21" />
+  <Annotation Target="#23=M:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.RunInTransactionAspectAttribute::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#20" Description="#21" />
+  <Annotation Target="#24=M:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.RunInTransactionAspectAttribute::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#20" Description="#21" />
+  <Annotation Target="#25=M:[Workflow.Base.Infrastructure]Workflow.Base.Infrastructure.Attributes.ApplicationLayerExceptionAttribute::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#20" Description="#21" />
+</Symbols>

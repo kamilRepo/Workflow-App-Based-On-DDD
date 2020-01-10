@@ -1,0 +1,72 @@
+﻿@using Workflow.Basic.Presentation.Resources.Common;
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+    <div class="panel panel-gray">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <span class="glyphicon glyphicon-th"></span>
+                Wnioski
+            </h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                    <div class="col-xs-4 col-sm-2">
+                    <asp:LinkButton ID="lnk_SearchEmployees" class="link" href="../ApplicationsHR/SearchEmployees.aspx" runat="server">
+                    <div class="tile">
+                            <span class="glyphicon glyphicon-duplicate tile-ico"></span>
+                            <div class="clearfix"></div>
+                            <span class="tile-title">
+                                @Common.Zadania
+                            </span>
+                        </div>
+
+                        </asp:LinkButton>
+                    </div>
+                <div class="col-xs-4 col-sm-2">
+                    <asp:LinkButton ID="lnk_SearchEmployees" class="link" href="../ApplicationsHR/SearchEmployees.aspx" runat="server">
+                    <div class="tile">
+                            <span class="glyphicon glyphicon-duplicate tile-ico"></span>
+                            <div class="clearfix"></div>
+                            <span class="tile-title">
+                                @Common.Urlop
+                            </span>
+                        </div>
+
+                        </asp:LinkButton>
+                    </div>
+                <div class="col-xs-4 col-sm-2">
+                    <asp:LinkButton ID="lnk_Reports" class="link" href="../ApplicationsHR/Reports.aspx" runat="server">
+
+                    <div class="tile">
+                            <span class="glyphicon glyphicon-duplicate tile-ico"></span>
+                            <div class="clearfix"></div>
+                            <span class="tile-title">
+                            @Common.Reports
+                            </span>
+                        </div>
+                        
+                        </asp:LinkButton>
+                    </div>
+
+                <div class="col-xs-4 col-sm-2">
+                    <asp:LinkButton ID="lnk_Import" class="link" href="../ApplicationsHR/Import.aspx" runat="server">
+
+                    <div class="tile">
+                            <span class="glyphicon glyphicon-duplicate tile-ico"></span>
+                            <div class="clearfix"></div>
+                            <span class="tile-title">
+                                @Common.Import
+                            </span>
+                        </div>
+                        
+                        </asp:LinkButton>
+                    </div>
+
+            </div>
+        </div>
+    </div>

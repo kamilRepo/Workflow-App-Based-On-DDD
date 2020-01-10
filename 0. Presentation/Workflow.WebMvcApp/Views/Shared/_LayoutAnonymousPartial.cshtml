@@ -1,0 +1,19 @@
+﻿@using Workflow.Basic.Presentation.Resources.Common;
+
+<div class="navbar-header">
+    <a class="navbar-brand" runat="server" href="~/Account/Login">
+        <img src="..\..\Content\Images\logo.png" alt="..." height="30">
+    </a>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+            @Html.ActionLink(@Common.LogIn, "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
+        </li>
+    </ul>
+</div>

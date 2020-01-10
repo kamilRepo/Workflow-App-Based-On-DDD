@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9BCB8C59-B15C-4708-9C41-A496D96942A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Workflow.HR.Interface</RootNamespace>
+    <AssemblyName>Workflow.HR.Interface</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application\Commands\AddDeductionsSalaryCommand.cs" />
+    <Compile Include="Application\Services\IDeductionsSalaryService.cs" />
+    <Compile Include="Application\Services\IEditDataPortalService.cs" />
+    <Compile Include="Application\Services\IStructureAndLocationService.cs" />
+    <Compile Include="Presentation\Abstract\ISalaryDeductionsFinder.cs" />
+    <Compile Include="Presentation\Abstract\IStructureAndLocationFinder.cs" />
+    <Compile Include="Presentation\FindersDto\SalaryDeductionsDto.cs" />
+    <Compile Include="Presentation\FindersDto\StructureAndLocationDto.cs" />
+    <Compile Include="Presentation\ServicesDto\EditAllocationStructureResultDto.cs" />
+    <Compile Include="Presentation\ServicesDto\EditDataPortalResultDto.cs" />
+    <Compile Include="Presentation\ServicesDto\SalaryDeductionsResultDto.cs" />
+    <Compile Include="Presentation\ServicesDto\StructureAndLocationResultDto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Domain\Dictionaries\" />
+    <Folder Include="Domain\Events\" />
+    <Folder Include="Presentation\Criteria\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\1. Base\Workflow.Base.Interface\Workflow.Base.Interface.csproj">
+      <Project>{f60a8386-9cfe-43bc-8c26-540366909156}</Project>
+      <Name>Workflow.Base.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

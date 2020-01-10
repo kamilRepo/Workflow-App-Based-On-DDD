@@ -1,0 +1,7 @@
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\3. Permissions\Workflow.Permissions.Interface\bin\Debug\Workflow.Permissions.Interface.dll
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\3. Permissions\Workflow.Permissions.Interface\bin\Debug\Workflow.Permissions.Interface.pdb
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\3. Permissions\Workflow.Permissions.Interface\bin\Debug\Workflow.Base.Interface.dll
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\3. Permissions\Workflow.Permissions.Interface\bin\Debug\Workflow.Base.Interface.pdb
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\3. Permissions\Workflow.Permissions.Interface\obj\Debug\Workflow.Permissions.Interface.csprojResolveAssemblyReference.cache
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\3. Permissions\Workflow.Permissions.Interface\obj\Debug\Workflow.Permissions.Interface.dll
+D:\Praca\NooxTech\Studia\MGR\TFS\Workflow\Kamil-branch-branch\3. Permissions\Workflow.Permissions.Interface\obj\Debug\Workflow.Permissions.Interface.pdb

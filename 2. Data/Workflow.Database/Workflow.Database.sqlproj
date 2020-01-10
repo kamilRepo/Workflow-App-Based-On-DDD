@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>Workflow.Database</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{c42e8d92-8b51-42ad-bc1a-e71a3d9cfe97}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>Workflow.Database</RootNamespace>
+    <AssemblyName>Workflow.Database</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="Migration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Migration\1_insert.sql" />
+    <Build Include="Migration\2_insert.sql" />
+    <Build Include="Migration\1_schema.sql" />
+    <Build Include="Migration\1_schemaInsert.sql" />
+    <Build Include="Migration\3_insert.sql" />
+    <Build Include="Migration\3_schemaInsert.sql" />
+    <Build Include="Migration\4_insert.sql" />
+    <Build Include="Migration\4_schemaInsert.sql" />
+    <Build Include="dbo\Tables\B_Vacations.sql" />
+    <Build Include="dbo\Tables\B_User.sql" />
+    <Build Include="dbo\Tables\B_Silo.sql" />
+    <Build Include="dbo\Tables\B_Section.sql" />
+    <Build Include="dbo\Tables\B_SalaryDeductions.sql" />
+    <Build Include="dbo\Tables\B_Salary.sql" />
+    <Build Include="dbo\Tables\B_OrganizationalUnit.sql" />
+    <Build Include="dbo\Tables\B_OrganizationalCell.sql" />
+    <Build Include="dbo\Tables\B_Inspection.sql" />
+    <Build Include="dbo\Tables\B_GroupSites.sql" />
+    <Build Include="dbo\Tables\B_GroupEmployee.sql" />
+    <Build Include="dbo\Tables\B_Group.sql" />
+    <Build Include="dbo\Tables\B_Events.sql" />
+    <Build Include="dbo\Tables\B_EmployeeMembershipCoefficients.sql" />
+    <Build Include="dbo\Tables\B_EmployeeMembership.sql" />
+    <Build Include="dbo\Tables\B_EmployeeAddress.sql" />
+    <Build Include="dbo\Tables\B_Employee.sql" />
+    <Build Include="dbo\Tables\B_Contract.sql" />
+    <Build Include="Migration\5_schemaInsert.sql" />
+    <Build Include="Migration\5_insert.sql" />
+  </ItemGroup>
+</Project>
